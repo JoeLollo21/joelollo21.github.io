@@ -1,2 +1,2 @@
-# joelollo21.github.io
+# Joe Lollo's Personal Website
 My new website using a new design. Presently a WIP.
