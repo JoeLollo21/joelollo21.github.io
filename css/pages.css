@@ -63,9 +63,10 @@ text {
 }
 
 a {
-  color: #00356B;
+  color: #0085FF;
 }
 
 a:hover {
   color: #4B2E83;
+  font-weight: bold;
 }
