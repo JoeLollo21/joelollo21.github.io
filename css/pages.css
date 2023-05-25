@@ -61,3 +61,11 @@ text {
   font-weight: bold;
   color: #0000EE;
 }
+
+a {
+  color: #00356B;
+}
+
+a:hover {
+  color: #4B2E83;
+}
