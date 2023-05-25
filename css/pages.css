@@ -70,3 +70,8 @@ a:hover {
   color: #4B2E83;
   font-weight: bold;
 }
+
+a:onclick{
+  color: #FF0085;
+  font-weight: bold;
+}
