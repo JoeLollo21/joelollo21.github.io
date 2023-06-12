@@ -1,0 +1,42 @@
+/*
+ * CSS stylesheet for John Adams Diaries Linked Data Practice.
+ * Not required, but useful.
+ */
+
+@page {
+    margin-top: 1in;
+}
+
+body {
+    width: 75%;
+    margin-left: .75in;
+    margin-right: .75in;
+    line-height: 175%;
+    font-family: "Garamond", "EB Garamond," serif;
+    background-color: #FFF8E7;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+.place {
+    color: #B22222;
+}
+
+.name {
+    color: #006400;
+}
+
+.language {
+    color: #4B2E83;
+}
+
+a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.modern {
+    display:none;
+}
