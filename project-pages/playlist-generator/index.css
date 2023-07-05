@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html {
+    background-color: #000000;
+    background-image: url("images/trees_bg.JPG");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+header, footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+header, footer, #input {
+    text-align: center;
+}
+
+header h1 {
+    margin: 100px 0px;
+    font-size: 50px;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 254, 235);
+    padding: 20px 40px;
+}
