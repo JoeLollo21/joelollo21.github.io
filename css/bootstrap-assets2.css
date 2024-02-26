@@ -1,0 +1,112 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    footer .footerContent div p {
+      font-size: 16px;
+    }
+    .cardDes {
+      font-size: 16px;
+    }
+    .cardTitle {
+      font-size: 24px;
+    }
+
+    .desktopLogo h1 {
+      font-size: 24px;
+    }
+    .caseContent {
+      margin-left: 20vh;
+      margin-right: 20vh;
+    }
+    .contactMe, .bragFooter {
+      font-size: 16px;
+    }
+    nav a {
+      font-size: 24px;
+      padding-right: 3vh;
+    }
+    .linkedInBox, .emailBox {
+      width: 10vh;
+    }
+    .desktopNav, .navTabs, .socialArea, .linkedInBox, .emailBox {
+      height: 10vh;
+    }
+    .centerNav {
+      height: 10vh;
+      line-height: 10vh;
+    }
+    .logo {
+      width: 7vh;
+    }
+    /* end of footer stuff */
+  
+    /* case study stuff */
+    /* .caseContent {
+      margin-left: 20vh;
+    } */
+    .telePoints {
+      display: block;
+      position: fixed;
+      top: 40%;
+      margin-left: -14vh;
+    }
+    .telePoints ul a li {
+      font-size: 12px;
+      line-height: 3vh;
+      color: #767676;
+    }
+    .telePoints ul {
+      padding: 0;
+      margin: 0;
+      margin-left: 1.7vh;
+      list-style-type: square;
+    }
+    .telePoints ul a {
+      text-decoration: none;
+    }
+    .telePoints ul a li:hover {
+      font-weight: 400;
+      color: #303030;
+    }
+    /* css code for floating back to top button is written by Muhammad Asif */
+    /* https://codeconvey.com/floating-back-to-top-button-html/ */
+    #return-to-top {
+      position: fixed;
+      bottom: 25vh;
+      right: 6vh;
+      width: 8vh;
+      height: 8vh;
+      display: block;
+      text-decoration: none;
+      display: none;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      opacity: 100%;
+      z-index: -1;
+      border: 1px solid #303030;
+    }
+    #return-to-top img {
+      width: 8vh;
+      height: 8vh;
+    }
+    .sec h2 {
+      font-size: 16px;
+    }
+    .sec p {
+      font-size: 16px;
+    }
+    .instaCite, .artCite {
+      font-size: 16px;
+    }
+    .context div ul li {
+      font-size: 16px;
+    }
+    .context div p {
+      font-size: 16px;
+    }
+    .otherProject h1, .title h1, .allProjects h1  {
+      font-size: 80px;
+    }
+}

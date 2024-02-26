@@ -1,0 +1,147 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .button:hover icon:before {
+      top: -1rem;
+    }
+    .button:hover icon::after {
+      top: 1rem;
+    }
+    #return-to-top:hover {
+      transform: scale(0.85); 
+    }
+    #myImg:hover {
+      transform: scale(0.90); 
+    }
+    .shrink:hover { 
+      transform: scale(0.95); 
+    }
+
+    .card:hover img {
+      transform: scale(1.25); 
+    }
+    .bigShrink:hover { 
+      transform: scale(0.85); 
+    }
+    body {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .mobileSelfDesc {
+      display: none;
+    }
+    .desktopSelfDesc {
+      display: block;
+      font-size: 16px;
+    }
+  
+    /* footer stuff */
+    hr {
+      display: block;
+      margin-top: 3vh;
+      margin-bottom: 3vh;
+      color: #ededed;
+      opacity: 0.2;
+    }
+    .otherProject {
+      margin-left: 10%;
+      margin-right: 10%;
+      border-bottom: none;
+    }
+    .otherProject a h1:hover img {
+      opacity: 100%;
+    }
+    .nextHover:hover {
+      -webkit-text-stroke: 0.5px black;
+      color: white;
+      transition: all 0.2s linear;
+    }
+    .underlinedLink:hover {
+      text-decoration: none;
+      -webkit-text-stroke: 0.5px black;
+      color: white;
+      transition: all 0.2s linear;
+    }
+    .footerContent {
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: right;
+      /* margin-top: 10vh; */
+    }
+    .bragFooter {
+      text-align: right; 
+      margin-top: 2vh;
+    }
+    .contactMe a:hover {
+      text-decoration: none;
+      -webkit-text-stroke: 0.5px black;
+      color: white;
+      transition: all 0.2s linear;
+    }
+    .contactMe {
+      position: absolute;
+      margin: 0;
+      margin-left: 1vh;
+      text-align: left;
+    }
+    .footerLogoContainer {
+      display: block;
+      position: absolute;
+      margin-top: 3vh;
+      text-align: left;
+      margin-left: 10%;
+    }
+    .projectFooter .footerLogoContainer {
+      margin-top: 4vh;
+    }
+    .projectFooter .footerContent {
+      margin-top: 8vh;
+    }
+    .footerLogo {
+      margin-left: 1vh;
+      width: 5.5vh;
+    }
+  /* end of footer stuff */
+  
+    label {
+      display: none;
+    }
+  
+    nav a {
+      padding-right: 1.5vh;
+    }
+    .linkedInBox, .emailBox {
+      width: 8vh;
+    }
+    .desktopNav, .navTabs, .socialArea, .linkedInBox, .emailBox {
+      height: 8vh;
+    }
+    .centerNav {
+      height: 8vh;
+      line-height: 8vh;
+    }
+    .logo {
+      width: 5vh;
+    }
+    /* case study stuff */
+    .caseContent {
+      margin-left: 15vh;
+      margin-right: 15vh;
+    }
+    .desktopLogo h1 {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    .centeringName {
+      position: absolute;
+      top: 50%;
+      left: 200%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+
+    .listRemove li {
+      font-size: 16px;
+    }
+  }
