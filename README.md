@@ -3,7 +3,7 @@ New website, in progress.
 
 ## Colophon:
 **Tech Used**:<br>
-Design & Wireframing: [Indexhibit](https://www.indexhibit.org/)
+Design & Wireframing: [Indexhibit](https://www.indexhibit.org/)<br>
 Coding Languages: HTML, CSS, some JavaScript<br><br>
 **Fonts Used**:<br>
 Body: [Comic Shanns](https://github.com/shannpersand/comic-shanns) designed by Shannon "Shanpersand" Miwa<br>
