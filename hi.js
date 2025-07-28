@@ -1,23 +1,36 @@
 $("a#ya").click(function(){
     event.preventDefault();
-   if ($("div#dm,div#marc, div#kith, div#icon, div#tarot, div#pprod, div#gender, div#thesis").hasClass("show")) {
-    $("div#dm, div#marc, div#kith, div#icon, div#tarot, div#pprod, div#gender, div#thesis").removeClass("show")
+   if ($("div#dm,div#rule,div#marc, div#kith, div#icon, div#tarot, div#pprod, div#gender, div#thesis").hasClass("show")) {
+    $("div#dm, div#rule, div#marc, div#kith, div#icon, div#tarot, div#pprod, div#gender, div#thesis").removeClass("show")
   }
-  if ($("a#dm, a#marc, a#kith, a#icon, a#tarot, a#pprod, a#gender, a#thesis").hasClass("active")) {
-    $("a#dm, a#marc, a#kith, a#icon, a#tarot, a#pprod, a#gender, a#thesis").removeClass("active")
+  if ($("a#dm, a#rule, a#marc, a#kith, a#icon, a#tarot, a#pprod, a#gender, a#thesis").hasClass("active")) {
+    $("a#dm, a#rule, a#marc, a#kith, a#icon, a#tarot, a#pprod, a#gender, a#thesis").removeClass("active")
   }
     $("div#ya").toggleClass("show");
   $("a#ya").toggleClass("active");
   $("div.exit").addClass("exit-show");
   });
 
+$("a#kith").click(function(){
+    event.preventDefault();
+   if ($("div#dm, div#rule, div#marc, div#gender, div#icon, div#tarot, div#ya, div#pprod, div#thesis").hasClass("show")) {
+    $("div#dm, div#rule, div#marc, div#gender, div#icon, div#tarot, div#ya, div#pprod, div#thesis").removeClass("show")
+  }
+  if ($("a#dm, a#rule, a#marc, a#gender, a#icon, a#tarot, a#ya, a#pprod, a#thesis").hasClass("active")) {
+    $("a#dm, a#rule, a#marc, a#gender, a#icon, a#tarot, a#ya, a#pprod, a#thesis").removeClass("active")
+  }
+    $("div#kith").toggleClass("show");
+  $("a#kith").toggleClass("active");
+  $("div.exit").addClass("exit-show");
+  });
+
 $("a#gender").click(function(){
     event.preventDefault();
-   if ($("div#dm, div#marc, div#kith, div#icon, div#tarot, div#ya, div#pprod, div#thesis").hasClass("show")) {
-    $("div#dm, div#marc, div#kith, div#icon, div#tarot, div#ya, div#pprod, div#thesis").removeClass("show")
+   if ($("div#dm, div#rule, div#marc, div#kith, div#icon, div#tarot, div#ya, div#pprod, div#thesis").hasClass("show")) {
+    $("div#dm, div#rule, div#marc, div#kith, div#icon, div#tarot, div#ya, div#pprod, div#thesis").removeClass("show")
   }
-  if ($("a#dm, a#marc, a#kith, a#icon, a#tarot, a#ya, a#pprod, a#thesis").hasClass("active")) {
-    $("a#dm, a#marc, a#kith, a#icon, a#tarot, a#ya, a#pprod, a#thesis").removeClass("active")
+  if ($("a#dm, a#rule, a#marc, a#kith, a#icon, a#tarot, a#ya, a#pprod, a#thesis").hasClass("active")) {
+    $("a#dm, a#rule, a#marc, a#kith, a#icon, a#tarot, a#ya, a#pprod, a#thesis").removeClass("active")
   }
     $("div#gender").toggleClass("show");
   $("a#gender").toggleClass("active");
@@ -26,11 +39,11 @@ $("a#gender").click(function(){
 
 $("a#thesis").click(function(){
     event.preventDefault();
-   if ($("div#dm, div#marc, div#kith, div#icon, div#tarot, div#ya, div#gender, div#pprod").hasClass("show")) {
-    $("div#dm, div#marc, div#kith, div#icon, div#tarot, div#ya, div#gender, div#pprod").removeClass("show")
+   if ($("div#dm, div#rule, div#marc, div#kith, div#icon, div#tarot, div#ya, div#gender, div#pprod").hasClass("show")) {
+    $("div#dm, div#rule, div#marc, div#kith, div#icon, div#tarot, div#ya, div#gender, div#pprod").removeClass("show")
   }
-     if ($("a#dm, a#marc, a#kith, a#icon, a#tarot, a#ya, a#gender, a#pprod").hasClass("active")) {
-    $("a#dm, a#marc, a#kith, a#icon, a#tarot, a#ya, a#gender, a#pprod").removeClass("active")
+     if ($("a#dm, a#rule, a#marc, a#kith, a#icon, a#tarot, a#ya, a#gender, a#pprod").hasClass("active")) {
+    $("a#dm, a#marc, a#rule, a#kith, a#icon, a#tarot, a#ya, a#gender, a#pprod").removeClass("active")
   }
     $("div#thesis").toggleClass("show");
   $("a#thesis").toggleClass("active");
@@ -39,11 +52,11 @@ $("a#thesis").click(function(){
 
 $("a#icon").click(function(){
     event.preventDefault();
-   if ($("div#dm, div#marc, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").hasClass("show")) {
-    $("div#dm, div#marc, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").removeClass("show")
+   if ($("div#dm, div#marc, div#rule, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").hasClass("show")) {
+    $("div#dm, div#marc, div#rule, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").removeClass("show")
   }
-     if ($("a#dm, a#marc, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").hasClass("active")) {
-    $("a#dm, a#marc, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").removeClass("active")
+     if ($("a#dm, a#rule, a#marc, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").hasClass("active")) {
+    $("a#dm, a#marc, a#rule, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").removeClass("active")
   }
     $("div#icon").toggleClass("show");
   $("a#icon").toggleClass("active");
@@ -52,11 +65,11 @@ $("a#icon").click(function(){
 
 $("a#marc").click(function(){
     event.preventDefault();
-   if ($("div#dm, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").hasClass("show")) {
-    $("div#dm, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").removeClass("show")
+   if ($("div#dm, div#rule, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").hasClass("show")) {
+    $("div#dm, div#rule, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").removeClass("show")
   }
-     if ($("a#dm, a#icon, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").hasClass("active")) {
-    $("a#dm, a#icon, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").removeClass("active")
+     if ($("a#dm, a#rule, a#icon, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").hasClass("active")) {
+    $("a#dm, a#icon, a#rule, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").removeClass("active")
   }
     $("div#marc").toggleClass("show");
   $("a#marc").toggleClass("active");
@@ -65,11 +78,11 @@ $("a#marc").click(function(){
 
 $("a#dm").click(function(){
     event.preventDefault();
-   if ($("div#marc, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").hasClass("show")) {
-    $("div#marc, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").removeClass("show")
+   if ($("div#marc, div#rule, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").hasClass("show")) {
+    $("div#marc, div#rule, div#icon, div#kith, div#tarot, div#ya, div#gender, div#pprod, div#thesis").removeClass("show")
   }
-     if ($("a#marc, a#icon, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").hasClass("active")) {
-    $("a#marc, a#icon, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").removeClass("active")
+     if ($("a#marc, a#rule, a#icon, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").hasClass("active")) {
+    $("a#marc, a#icon, a#rule, a#kith, a#tarot, a#ya, a#gender, a#pprod, a#thesis").removeClass("active")
   }
     $("div#dm").toggleClass("show");
   $("a#dm").toggleClass("active");
@@ -78,11 +91,11 @@ $("a#dm").click(function(){
 
 $("div.exit").click(function(){
   event.preventDefault();
-  if ($("div#dm, div#marc, div#kith, div#icon, div#pprod, div#tarot, div#ya, div#gender, div#thesis").hasClass("show")) {
-    $("div#dm, div#marc, div#kith, div#icon, div#pprod, div#tarot, div#ya, div#gender, div#thesis").removeClass("show")
+  if ($("div#dm, div#rule, div#marc, div#kith, div#icon, div#pprod, div#tarot, div#ya, div#gender, div#thesis").hasClass("show")) {
+    $("div#dm, div#rule, div#marc, div#kith, div#icon, div#pprod, div#tarot, div#ya, div#gender, div#thesis").removeClass("show")
   }
-     if ($("a#dm, a#marc, a#kith, a#icon, a#pprod, a#tarot, a#ya, a#gender, a#thesis").hasClass("active")) {
-    $("a#dm, a#marc, a#kith, a#icon, a#pprod, a#tarot, a#ya, a#gender, a#thesis").removeClass("active")
+     if ($("a#dm, a#rule, a#marc, a#kith, a#icon, a#pprod, a#tarot, a#ya, a#gender, a#thesis").hasClass("active")) {
+    $("a#dm, a#marc, a#rule, a#kith, a#icon, a#pprod, a#tarot, a#ya, a#gender, a#thesis").removeClass("active")
   }
    $("div.exit").removeClass("exit-show");
 })
